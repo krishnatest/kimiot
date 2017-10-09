@@ -1,13 +1,19 @@
-package com.dxc.ms.web;
+package com.dxc.ms.iot;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.client.RestTemplate;
 
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 /**
- * @author Dinesh.Rajput
+ * 
+ * @author kkumar92
  *
  */
 public class RemoteUserRepository implements UserRepository {
@@ -20,12 +26,15 @@ public class RemoteUserRepository implements UserRepository {
 	public RemoteUserRepository(String serviceUrl) {
 		this.serviceUrl = serviceUrl.startsWith("http") ? serviceUrl
 				: "http://" + serviceUrl;
+		System.out.println("serviceUrl -- " + serviceUrl);
 	}
 	
 	@Override
-	public List<Users> getAllUsers() {
-		Users[] users = restTemplate.getForObject(serviceUrl+"/users", Users[].class);
-		return Arrays.asList(users);
+	public String getAllUsers() {
+		String result = restTemplate.getForObject(serviceUrl, String.class);
+		System.out.println(result);
+		
+		return result;
 	}
-
+	
 }

@@ -15,38 +15,42 @@
 
 <body>
 
-	<div class="container" style="height: 500px;">
+	<div class="container">
 		<div class="row">
 			<nav class="navbar navbar-inverse" style="background-color: #666; margin-top:10px;">
 				<div class="container-fluid">
 					<div class="navbar-header" style="text-align: left; color:#FFFFFF; margin-bottom:10px;">
-						<h2>Microservice</h2>
+						<h2>Weather Microservice</h2>
 					</div>
 				</div>
 			</nav>
 		</div>
 		
 		<div class="row" style="text-align: left">
+			<h2>Json</h2>
 			
 			<table width="600px">
+				<!-- 
+				<c:forEach items="${users}" var="user">
+					<tr>
+						<td>${user.usersFname}</td>
+						<td>${user.usersLname}</td>
+						<td>${user.mobile}</td>
+						<td>${user.address}</td>
+						<td><a href="/updateUsers">${user.usersShortId}</a></td>
+					</tr>
+				</c:forEach>
+				-->
+				
 				<tr>
 					<td>
-						
+						${jData}
 					</td>
 				</tr>
-				<tr>
-					<td>
-						
-					</td>
-				</tr>
+				
 			</table>
-			
 		</div>
-		
 	</div>
-	<div id="poweredby">
-		<p class="poweredby">Powered by <img src="/Images/csc.png" width="25" height="14"></p>
-	</div>	
 
 </body>
 

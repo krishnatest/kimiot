@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.dxc</groupId>
-	<artifactId>com.dxc.ms.web</artifactId>
+	<artifactId>com.dxc.ms.iot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>com.dxc.ms.web</name>
+	<name>com.dxc.ms.iot</name>
 	<description>Demo project for Spring Boot MS</description>
 
 	<parent>
@@ -63,8 +63,21 @@
 		    <artifactId>json-simple</artifactId>
 		    <version>1.1</version>
 		</dependency>
-		
-		
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-solr</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>2.11.0</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>

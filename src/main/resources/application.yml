@@ -8,18 +8,11 @@ spring:
       prefix: /WEB-INF/views/
       suffix: .jsp
 
-# Discovery Server Access
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
-
 # HTTP Server (Tomcat) Port
 server: 
-  port: 5555
+  port: 8080
 
 # Disable Spring Boot's "Whitelabel" default error page, so we can use our own
 error:
   whitelabel:
     enabled:  false
-      

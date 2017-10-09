@@ -1,0 +1,279 @@
+body, div {
+    padding: 0;
+    font-family: Calibri;
+    font-size: 15px;
+    margin: 0px auto auto auto;
+    color: #666;
+    width: 94%;
+}
+
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.bgImg {
+    background-color: #404040;
+    display: block;
+    background-position: 0px 0px;
+    width: 94%;
+}
+
+#main_container {
+	width: 90%;
+	margin: auto;
+	padding: 0px;
+	/* position: relative; */
+}
+
+#dpmi_header {
+	height: 130px;
+}
+.logo {
+    /* */
+}
+.logoImg {
+    float: right;
+    margin-top: 25px;
+}
+
+.logo_txt {
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+    float: left;
+    width: 38%;
+    margin-top: 65px;
+}
+
+.header {
+	width: 90%;
+}
+
+.header1 {
+	float: left;
+	text-align: left;
+	width: 62%;
+	/* margin-left: 200px; */
+}
+
+.header2 {
+	text-align: left;
+}
+
+#dpmi_menu {
+	width: 97%;
+	text-align: center;
+	margin-left: 42px;
+	margin-top: 42px;
+}
+
+#dpmi_body {
+    clear: both;
+    background-color: #FFFFFF;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 18px;
+}
+
+#dpmi_footer {
+    clear: both;
+    background-color: #FFFFFF;
+    border-top: 1px solid #726E6D;
+    height: 35px;
+    padding-top: 3px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.txtCenter {
+	text-align: center !important;
+}
+
+.mresultBtn {
+  background: #B5A642;
+  height: 54px;
+  width: 280px;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 27px;
+  font-size: 16px;
+}
+
+/*----- Tabs -----*/
+.tabs {
+	display: inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.tab-links li {
+	margin: 0px 1px;
+	float: left;
+	list-style: none;
+}
+
+.tab-links a {
+	padding: 8px 9px;
+	display: inline-block;
+	border-radius: 2px 2px 0px 0px;
+	background: #726E6D;
+	font-size: 15px;
+	/* font-weight: 600; */
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background: #9A9695;
+	text-decoration: none;
+}
+
+li.active a,li.active a:hover {
+	background: #009DDE;
+	color: #FFFFFF;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding: 15px;
+	border-radius: 3px;
+	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+	background: #fff;
+}
+
+.tab {
+	display: none;
+}
+
+.tab.active {
+	display: block;
+}
+.paddingBtm {
+	padding-bottom: 5px;
+}
+
+.centerAlign {
+	text-align: center !important;
+}
+
+
+/*	Added for Ajax Loader Spinner  */
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -22px; /* half width of the spinner gif */
+    margin-top: 135px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+}
+
+.selectCls1 {
+	width: 236px;
+	height: 27px;
+}
+
+.tickLabel {
+	baclground:#ffffff !important;
+}
+
+.popBtndiv {
+	
+}
+.popRightBtn {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 14px;  
+}
+.popLeftBtn {
+  float: left;
+  margin-left: 10px;
+}
+
+.btn {
+  width: 73px;
+  margin-top: 10px;
+  margin-bottom: 25px;  
+}
+
+.hflinks {
+	float: left; 
+	margin-top: -1px; 
+	font-size: 15px; 
+	margin-right: 5px;
+	font-weight: 500; 
+	cursor: pointer
+}
+
+.prntlink {
+	cursor: pointer;
+	margin-right: 0px;
+}
+
+.pBtn {
+	float: left;
+	cursor: pointer
+}
+
+.dpmi_footer_print {
+  width: 100%;
+  clear: both;
+  background-color: #FFFFFF;
+  border-top: 1px solid #726E6D;
+  height: 35px;
+  padding-top: 3px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.smileyBox {
+    text-align: center;
+    /*border-radius: 6px;*/
+    /*border: 1px solid #e0e0e0;*/
+    /*width: 10%;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.smileyBoxTitle{
+    margin-top: 12px;
+    width: 75%;
+    height: 50%;
+    border-radius: 6px;
+    /*border: 1px solid #ededed;*/
+}
+
+.smileyImgSet {
+    /*float: left;*/
+    /*
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    */
+}
+
+.smileyTxt {
+    float: right;
+    margin-top: -9%;
+    margin-right: -8%;
+    font-size: 38px;
+}
+
+.smileyBoxHis {
+    text-align: center;
+    /*border-radius: 6px;*/
+    /*border: 1px solid #e0e0e0;*/
+    /*width: 10%;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

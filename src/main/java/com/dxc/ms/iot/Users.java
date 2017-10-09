@@ -1,14 +1,16 @@
-package com.dxc.ms.web;
+package com.dxc.ms.iot;
 
 import java.io.Serializable;
 
-public class Users implements Serializable{
+public class Users implements Serializable {
+	//private static final long serialVersionUID = 1L;
 	private String usersFname;
 	private String usersLname;
 	private String usersShortId;
-	private Long mobile;
+	private String usersPassword;
+	private String mobile;
 	private String address;
-	
+
 	public String getUsersFname() {
 		return usersFname;
 	}
@@ -27,10 +29,10 @@ public class Users implements Serializable{
 	public void setUsersShortId(String usersShortId) {
 		this.usersShortId = usersShortId;
 	}
-	public Long getMobile() {
+	public String getMobile() {
 		return mobile;
 	}
-	public void setMobile(Long mobile) {
+	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
 	public String getAddress() {
@@ -39,5 +41,13 @@ public class Users implements Serializable{
 	public void setAddress(String address) {
 		this.address = address;
 	}
+	public String getUsersPassword() {
+		return usersPassword;
+	}
+	public void setUsersPassword(String usersPassword) {
+		this.usersPassword = usersPassword;
+	}
+
+	
 }
 
