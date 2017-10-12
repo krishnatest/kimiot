@@ -20,7 +20,7 @@
 			<nav class="navbar navbar-inverse" style="background-color: #666; margin-top:10px;">
 				<div class="container-fluid">
 					<div class="navbar-header" style="text-align: left; color:#FFFFFF; margin-bottom:10px;">
-						<h2>Microservice</h2>
+						<h2>IoT</h2>
 					</div>
 				</div>
 			</nav>
@@ -45,7 +45,7 @@
 		
 	</div>
 	<div id="poweredby">
-		<p class="poweredby">Powered by <img src="/Images/csc.png" width="25" height="14"></p>
+		<p class="poweredby">Powered by <b>DXC</b></p>
 	</div>	
 
 </body>

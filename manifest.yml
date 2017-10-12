@@ -1,0 +1,10 @@
+---
+applications:
+  - name: dxc-spring
+    buildpack: java-buildpack
+    path: target/com.dxc.ms.iot-0.0.1-SNAPSHOT.war
+    memory: 512M
+    timeout : 180
+env:
+   SPRING_PROFILES_ACTIVE : cloud
+   MEMORY_LIMIT: 358M
